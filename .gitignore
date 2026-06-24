@@ -1,0 +1,29 @@
+# ModelSim
+work/
+transcript
+*.wlf
+vsim.wlf
+
+# Simulation outputs
+sim/*.vcd
+sim/sim_out
+sim/sim_out.exe
+
+# Vivado
+*.jou
+*.log
+.Xil/
+*/impl_1/
+*/synth_1/
+
+# Quartus
+output_files/
+db/
+incremental_db/
+
+# General
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
